@@ -1,0 +1,15 @@
+{
+  "name": "codemodes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eslint-transform.js",
+  "scripts": {
+    "eslint": "jscodeshift eslint-transforms",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jscodeshift": "^0.7.0"
+  }
+}
